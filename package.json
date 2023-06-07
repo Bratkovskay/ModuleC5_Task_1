@@ -1,0 +1,20 @@
+{
+  "name": "task_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-modules ./main.mjs",
+    "start": "node --experimental-modules ./main.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
